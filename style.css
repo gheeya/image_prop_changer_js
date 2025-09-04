@@ -1,0 +1,39 @@
+:root{
+    --bg-color:yellow;
+    --blur-amt:0px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+body h2{
+    color:var(--bg-color)
+}
+
+.background{
+    height:400px;
+    width:700px;
+    padding: 10px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    border: 1px solid black;
+    filter:blur(var(--blur-amt))
+}
+
+.background img{
+    height:80%;
+    width:80%;
+    border: 1px solid black;
+}
