@@ -9,6 +9,16 @@
 </head>
 <body>
     <h2>Image Property Changer</h2>
+    <div class="img-form">
+        <form>
+            <label for="spacing">Spacing: </label>
+            <input type="range" name="spacing" id="spacing" class="spacing" min="0" max="10" step="1" value="0">
+            <label for="blur">Blur: </label>
+            <input type="range" name="blur" id="blur" min="0" max="10" step="1" value="0" class="blur">
+            <label for="color">Color: </label>
+            <input type="color" name="color" id="color" class="color">
+        </form>
+    </div>
     <div class="background">
         <img src="./images/background_img.webp" alt="background-image">
     </div>
